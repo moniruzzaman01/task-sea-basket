@@ -1,11 +1,11 @@
 import Footer from "./Components/Footer/Footer";
-import Header from "./Components/Header/Header";
+import Navbar from "./Components/Header/Navbar";
 import Home from "./Components/Home/Home";
 
 function App() {
   return (
     <div className=" bg-[#F6FCFF] min-h-screen max-w-7xl mx-auto">
-      <Header />
+      <Navbar />
       <Home />
       <Footer />
     </div>

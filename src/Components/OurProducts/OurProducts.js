@@ -7,7 +7,8 @@ const OurProducts = () => {
       <h1 className=" text-2xl font-bold uppercase text-center mb-3">
         A GLANCE AT OUR PRODUCT
       </h1>
-      <img src={vidImg} alt="" />
+      <video src="../../assets/sample_640x360.mp4" controls></video>
+      {/* <img src={vidImg} alt="" /> */}
     </div>
   );
 };
